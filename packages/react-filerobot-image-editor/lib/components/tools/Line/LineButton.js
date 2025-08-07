@@ -1,1 +1,0 @@
-import React from"react";import Line from"@scaleflex/icons/line";import{TOOLS_IDS}from"../../../utils/constants";var LineButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};LineButton.defaultProps={isSelected:!1};export default LineButton;

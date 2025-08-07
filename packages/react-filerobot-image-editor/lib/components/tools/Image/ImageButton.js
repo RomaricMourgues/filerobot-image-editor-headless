@@ -1,1 +1,0 @@
-import React from"react";import{ImageOutline as ImageIcon}from"@scaleflex/icons/image-outline";import{TOOLS_IDS}from"../../../utils/constants";var ImageButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};ImageButton.defaultProps={isSelected:!1};export default ImageButton;

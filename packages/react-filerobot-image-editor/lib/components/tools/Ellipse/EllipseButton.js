@@ -1,1 +1,0 @@
-import React from"react";import{Ellipse as EllipseIcon}from"@scaleflex/icons/ellipse";import{TOOLS_IDS}from"../../../utils/constants";var EllipseButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};EllipseButton.defaultProps={isSelected:!1};export default EllipseButton;
