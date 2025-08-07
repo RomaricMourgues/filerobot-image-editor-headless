@@ -2,7 +2,7 @@
 import React, { useMemo } from 'react';
 
 /** Internal Dependencies */
-import { useAnnotationEvents, useStore } from 'hooks';
+import { useAnnotationEvents, useStore } from '../../../hooks';
 import MemoizedAnnotation from './MemoizedAnnotation';
 
 const AnnotationNodes = () => {

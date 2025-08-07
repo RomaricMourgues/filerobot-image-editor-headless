@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import { useAnnotation } from 'hooks';
+import { useAnnotation } from '../../../hooks';
 import { TOOLS_IDS } from '../../../utils/constants';
 import TextControls from './TextControls';
 

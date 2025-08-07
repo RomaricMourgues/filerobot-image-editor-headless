@@ -2,7 +2,7 @@
 import React from 'react';
 
 /** Internal Dependencies */
-import { useFilter, useStore } from 'hooks';
+import { useFilter, useStore } from '../../hooks';
 import Carousel from '../../../components/common/Carousel';
 import FilterItem from './FilterItem';
 import { AVAILABLE_FILTERS } from './Filters.constants';

@@ -8,7 +8,7 @@ import cropImage from '../../../utils/cropImage';
 import { DESIGN_LAYER_ID, IMAGE_NODE_ID, TOOLS_IDS } from '../../../utils/constants';
 import { SET_SHOWN_IMAGE_DIMENSIONS } from '../../../actions';
 import getProperImageToCanvasSpacing from '../../../utils/getProperImageToCanvasSpacing';
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import getSizeAfterRotation from '../../../utils/getSizeAfterRotation';
 import getCenterRotatedPoint from '../../../utils/getCenterRotatedPoint';
 import AnnotationNodes from './AnnotationNodes';

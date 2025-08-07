@@ -3,7 +3,7 @@ import React, { useMemo, useRef, useState } from 'react';
 import { Images, UploadOutline } from '@scaleflex/icons';
 
 /** Internal Dependencies */
-import { useAnnotation, useStore } from 'hooks';
+import { useAnnotation, useStore } from '../../hooks';
 import { FEEDBACK_STATUSES, TOOLS_IDS } from '../../../utils/constants';
 import { SET_FEEDBACK } from '../../../actions';
 import HiddenUploadInput from '../../../components/common/HiddenUploadInput';

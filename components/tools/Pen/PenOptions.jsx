@@ -3,7 +3,7 @@ import React, { useCallback, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import { useAnnotation, useStore } from 'hooks';
+import { useAnnotation, useStore } from '../../hooks';
 import { TOOLS_IDS } from '../../../utils/constants';
 import AnnotationOptions from '../../../components/common/AnnotationOptions';
 import getPointerOffsetPositionBoundedToObject from '../../../utils/getPointerOffsetPositionBoundedToObject';

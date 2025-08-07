@@ -7,7 +7,7 @@ import { Reset } from '@scaleflex/icons';
 
 /** Internal Dependencies */
 import { SET_RESIZE, ZOOM_CANVAS } from '../../../actions';
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import getProperDimensions from '../../../utils/getProperDimensions';
 import getSizeAfterRotation from '../../../utils/getSizeAfterRotation';
 import getZoomFitFactor from '../../../utils/getZoomFitFactor';

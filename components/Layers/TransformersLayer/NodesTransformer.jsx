@@ -8,7 +8,7 @@ import {
   POINTER_ICONS,
   TOOLS_IDS,
 } from '../../../utils/constants';
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import { CHANGE_POINTER_ICON, ENABLE_TEXT_CONTENT_EDIT } from '../../../actions';
 
 const NodesTransformer = () => {

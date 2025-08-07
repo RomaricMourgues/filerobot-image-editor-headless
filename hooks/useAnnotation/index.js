@@ -6,7 +6,7 @@ import { SELECT_ANNOTATION, SET_ANNOTATION } from '../../actions';
 import randomId from '../../utils/randomId';
 import debounce from '../../utils/debounce';
 import { TOOLS_IDS } from '../../utils/constants';
-import { useStore } from 'hooks';
+import { useStore } from '../hooks';
 import previewThenCallAnnotationAdding from './previewThenCallAnnotationAdding';
 import useDebouncedCallback from '../useDebouncedCallback';
 

@@ -13,7 +13,7 @@ import {
 import ButtonWithMenu from '../../../components/common/ButtonWithMenu';
 import TextControls from '../../../components/tools/Text/TextOptions/TextControls';
 import ImageControls from '../../../components/tools/Image/ImageControls';
-import { usePhoneScreen, useStore } from 'hooks';
+import { usePhoneScreen, useStore } from '../../hooks';
 import { FEEDBACK_STATUSES, TOOLS_IDS } from '../../../utils/constants';
 import HiddenUploadInput from '../../../components/common/HiddenUploadInput';
 import {

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
 import { SET_CROP, SET_RESIZE, ZOOM_CANVAS } from '../../../actions';
-import { usePhoneScreen, useStore } from 'hooks';
+import { usePhoneScreen, useStore } from '../../hooks';
 import { StyledToolsBarItemButtonLabel } from '../../../components/ToolsBar/ToolsBar.styled';
 import { DEFAULT_ZOOM_FACTOR, ORIGINAL_CROP, TOOLS_IDS } from '../../../utils/constants';
 import toPrecisedFloat from '../../../utils/toPrecisedFloat';

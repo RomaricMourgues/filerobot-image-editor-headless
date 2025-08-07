@@ -5,7 +5,7 @@ import Popup from '@scaleflex/ui/core/popup';
 
 /** Internal Dependencies */
 import { SET_FEEDBACK } from '../../actions';
-import { useStore } from 'hooks';
+import { useStore } from '../hooks';
 import { FEEDBACK_STATUSES } from '../../utils/constants';
 
 const defaultAnchorOrigin = {

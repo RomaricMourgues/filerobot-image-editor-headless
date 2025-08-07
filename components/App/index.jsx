@@ -1,42 +1,36 @@
 /** External Dependencies */
-import React, { memo, useCallback, useEffect, useState, useRef } from 'react';
+import { memo, useCallback, useEffect, useRef, useState } from 'react';
 
 /** Internal Dependencies */
-import MainCanvas from '../../components/MainCanvas';
-import { ROOT_CONTAINER_CLASS_NAME } from '../../utils/constants';
-import Topbar from '../../components/Topbar';
-import Tabs from '../../components/Tabs';
-import ToolsBar from '../../components/ToolsBar';
-import {
-  HIDE_LOADER,
-  RESET,
-  SET_FEEDBACK,
-  SET_ORIGINAL_IMAGE,
-  SET_SHOWN_TABS_MENU,
-  SHOW_LOADER,
-  UPDATE_STATE,
-} from '../../actions';
-import FeedbackPopup from '../../components/FeedbackPopup';
-import loadImage from '../../utils/loadImage';
 import {
   usePhoneScreen,
   useResizeObserver,
   useStore,
   useTransformedImgData,
-} from 'hooks';
+} from '../hooks';
+import {
+  HIDE_LOADER,
+  RESET,
+  SET_FEEDBACK,
+  SET_ORIGINAL_IMAGE,
+  SHOW_LOADER,
+  UPDATE_STATE
+} from '../../actions';
 import Spinner from '../../components/common/Spinner';
-import { getBackendTranslations } from '../../utils/translator';
-import cloudimageQueryToDesignState from '../../utils/cloudimageQueryToDesignState';
-import finetunesStrsToClasses from '../../utils/finetunesStrsToClasses';
-import filterStrToClass from '../../utils/filterStrToClass';
-import isSameImage from '../../utils/isSameImage';
+import FeedbackPopup from '../../components/FeedbackPopup';
+import MainCanvas from '../../components/MainCanvas';
 import useUpdateEffect from '../../hooks/useUpdateEffect';
-import TabsDrawer from '../../components/TabsDrawer';
+import cloudimageQueryToDesignState from '../../utils/cloudimageQueryToDesignState';
+import { ROOT_CONTAINER_CLASS_NAME } from '../../utils/constants';
+import filterStrToClass from '../../utils/filterStrToClass';
+import finetunesStrsToClasses from '../../utils/finetunesStrsToClasses';
+import isSameImage from '../../utils/isSameImage';
+import loadImage from '../../utils/loadImage';
+import { getBackendTranslations } from '../../utils/translator';
 import {
   StyledAppWrapper,
-  StyledMainContent,
-  StyledTabs,
   StyledCanvasAndTools,
+  StyledMainContent
 } from './App.styled';
 
 const App = () => {
@@ -307,36 +301,16 @@ const App = () => {
     haveNotSavedChangesRef.current = haveNotSavedChanges;
   }, [haveNotSavedChanges]);
 
-  const toggleMainMenu = (open) => {
-    dispatch({
-      type: SET_SHOWN_TABS_MENU,
-      payload: {
-        opened: open,
-      },
-    });
-  };
-
   const renderContent = () => (
     <>
-      {!showCanvasOnly && (
-        <>
-          {showTabsDrawer && <TabsDrawer toggleMainMenu={toggleMainMenu} />}
-          <Topbar toggleMainMenu={toggleMainMenu} />
-        </>
-      )}
       {originalImage && feedback.duration !== 0 && (
         <StyledMainContent className="FIE_main-container">
-          {!showCanvasOnly && !showTabsDrawer && (
-            <StyledTabs className="FIE_tabs">
-              <Tabs toggleMainMenu={toggleMainMenu} />
-            </StyledTabs>
-          )}
+          
           <StyledCanvasAndTools
             className="FIE_editor-content"
             showTabsDrawer={showTabsDrawer}
           >
             <MainCanvas />
-            {!showCanvasOnly && <ToolsBar isPhoneScreen={isPhoneScreen} />}
           </StyledCanvasAndTools>
         </StyledMainContent>
       )}

@@ -8,7 +8,7 @@ import {
 } from '@scaleflex/ui/core';
 import ColorPickerIcon from '@scaleflex/icons/color-picker';
 
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import Styled from './ColorPickerModal.styled';
 
 const modalStyles = { zIndex: 1301 };

@@ -3,7 +3,7 @@ import React from 'react';
 import { Layer } from 'react-konva';
 
 /** Internal Dependencies */
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import { TOOLS_IDS, TRANSFORMERS_LAYER_ID } from '../../../utils/constants';
 import CropTransformer from './CropTransformer';
 import NodesTransformer from './NodesTransformer';

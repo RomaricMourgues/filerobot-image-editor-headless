@@ -1,4 +1,3 @@
-import { ThemeOverride } from '@scaleflex/ui/theme';
 import { FunctionComponent, RefObject } from 'react';
 
 declare const FILTERS = {
@@ -286,7 +285,6 @@ type saveOption = {
 };
 
 export interface FilerobotImageEditorConfig {
-  theme?: ThemeOverride;
   source: string | HTMLImageElement;
   annotationsCommon?: annotationsCommon;
   // [TOOLS_IDS.TEXT]

@@ -7,7 +7,7 @@ import { FlipY as FlipYIcon } from '@scaleflex/icons/flip-y';
 import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
 import { FLIP_DIRECTIONS, TOOLS_IDS } from '../../../utils/constants';
 import { TOGGLE_FLIP } from '../../../actions';
-import { usePhoneScreen, useStore } from 'hooks';
+import { usePhoneScreen, useStore } from '../../hooks';
 
 const yFlipReverseSideStyle = {
   transform: 'scaleY(-1)',

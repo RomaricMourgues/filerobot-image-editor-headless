@@ -23,7 +23,7 @@ import {
   TABS_IDS,
   TOOLS_IDS,
 } from '../../utils/constants';
-import { useStore } from 'hooks';
+import { useStore } from '../hooks';
 import { endTouchesZooming, zoomOnTouchesMove } from './touchZoomingEvents';
 import { StyledCanvasNode } from './MainCanvas.styled';
 

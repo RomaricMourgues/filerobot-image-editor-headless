@@ -4,7 +4,7 @@ import Konva from 'konva';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import { useFinetune } from 'hooks';
+import { useFinetune } from '../../hooks';
 import restrictNumber from '../../../utils/restrictNumber';
 import Slider from '../../../components/common/Slider';
 import {

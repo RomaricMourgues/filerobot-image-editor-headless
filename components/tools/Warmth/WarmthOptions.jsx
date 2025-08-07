@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import { useFinetune } from 'hooks';
+import { useFinetune } from '../../hooks';
 import restrictNumber from '../../../utils/restrictNumber';
 import { Warmth as CustomWarmth } from '../../../custom/finetunes';
 import Slider from '../../../components/common/Slider';

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Color as PC } from '@scaleflex/ui/utils/types/palette';
 
 /** Internal Dependencies */
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import CropPresetGroup from './CropPresetGroup';
 import { StyledMenuItem, StyledMenuItemIcon } from './Crop.styled';
 

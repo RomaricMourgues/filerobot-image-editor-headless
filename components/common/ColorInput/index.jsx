@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import { SET_LATEST_COLOR } from '../../../actions';
 import ColorPickerModal from '../../../ColorPickerModal';
 import { StyledPickerTrigger } from './ColorInput.styled';

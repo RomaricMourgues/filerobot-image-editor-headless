@@ -11,7 +11,7 @@ import AnnotationOptions from '../../../components/common/AnnotationOptions';
 import { StyledIconWrapper } from '../../../components/common/AnnotationOptions/AnnotationOptions.styled';
 import { ENABLE_TEXT_CONTENT_EDIT } from '../../../actions';
 import restrictNumber from '../../../utils/restrictNumber';
-import { useStore } from 'hooks';
+import { useStore } from '../../../hooks';
 import {
   StyledFontFamilySelect,
   StyledFontSizeInput,

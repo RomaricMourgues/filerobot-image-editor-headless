@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { MenuItemLabel } from '@scaleflex/ui/core/menu-item';
 
 /** Internal Dependencies */
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import {
   StyledMainButton,
   StyledButtonWrapper,

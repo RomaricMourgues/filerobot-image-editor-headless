@@ -7,7 +7,7 @@ import { FlipX as FlipXIcon } from '@scaleflex/icons/flip-x';
 import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
 import { FLIP_DIRECTIONS, TOOLS_IDS } from '../../../utils/constants';
 import { TOGGLE_FLIP } from '../../../actions';
-import { usePhoneScreen, useStore } from 'hooks';
+import { usePhoneScreen, useStore } from '../../hooks';
 
 const xFlipReverseSideStyle = {
   transform: 'scaleX(-1)',

@@ -4,7 +4,7 @@ import { Ellipse, Image, Rect, Transformer } from 'react-konva';
 import Konva from 'konva';
 
 /** Internal Dependencies */
-import { useStore } from 'hooks';
+import { useStore } from '../../hooks';
 import { SET_CROP, SET_FEEDBACK } from '../../../actions';
 import {
   CUSTOM_CROP,

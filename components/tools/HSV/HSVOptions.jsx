@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Konva from 'konva';
 
 /** Internal Dependencies */
-import { useFinetune, usePhoneScreen } from 'hooks';
+import { useFinetune, usePhoneScreen } from '../../hooks';
 import Slider from '../../../components/common/Slider';
 import {
   StyledHSVOptions,

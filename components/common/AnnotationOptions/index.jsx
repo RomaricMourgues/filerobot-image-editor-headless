@@ -1,7 +1,7 @@
 /** External Dependencies */
 import React, { useCallback, useMemo, useState } from 'react';
 import PropTypes from 'prop-types';
-import { usePhoneScreen, useStore } from 'hooks';
+import { usePhoneScreen, useStore } from '../../hooks';
 import { Label } from '@scaleflex/ui/core';
 import Menu from '@scaleflex/ui/core/menu';
 import Transparency from '@scaleflex/icons/transparency';

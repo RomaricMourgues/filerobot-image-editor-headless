@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { ArrowLeftOutline, ArrowRightOutline } from '@scaleflex/icons';
 
 /** Internal Dependencies */
-import { useResizeObserver } from 'hooks';
+import { useResizeObserver } from '../../hooks';
 import debounce from '../../../utils/debounce';
 import getScrollOffset from '../../../utils/getScrollOffset';
 import {
