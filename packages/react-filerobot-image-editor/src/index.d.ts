@@ -407,4 +407,4 @@ export interface FilerobotImageEditorConfig {
 declare const FilerobotImageEditor: FunctionComponent<FilerobotImageEditorConfig>;
 
 export default FilerobotImageEditor;
-export { TABS, TOOLS };
+export { TABS, TOOLS, FILTERS };

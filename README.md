@@ -1,3 +1,15 @@
+# Use the fork:
+
+```
+# "react-filerobot-image-editor": "https://github.com/RomaricMourgues/filerobot-image-editor-headless.git"
+
+import FilerobotImageEditor, {
+  FILTERS,
+} from "react-filerobot-image-editor/packages/react-filerobot-image-editor/src";
+```
+
+
+
 <p align="center">
 	<a href="https://github.com/scaleflex/filerobot-image-editor/blob/master/LICENSE">
 		<img src="https://img.shields.io/npm/l/filerobot-image-editor?style=for-the-badge" alt="License (MIT)" />
