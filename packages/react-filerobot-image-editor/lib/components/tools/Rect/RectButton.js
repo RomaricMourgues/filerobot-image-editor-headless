@@ -1,0 +1,1 @@
+import React from"react";import{CropLandscape as RectIcon}from"@scaleflex/icons/crop-landscape";import{TOOLS_IDS}from"../../../utils/constants";var RectButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};RectButton.defaultProps={isSelected:!1};export default RectButton;

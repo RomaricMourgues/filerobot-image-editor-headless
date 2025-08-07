@@ -1,0 +1,1 @@
+var Warmth=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};Warmth.defaultProps={isSelected:!1};export default Warmth;

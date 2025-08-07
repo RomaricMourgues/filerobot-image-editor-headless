@@ -1,0 +1,1 @@
+import React from"react";import{Brightness as BrightnessIcon}from"@scaleflex/icons/brightness";import{TOOLS_IDS}from"../../../utils/constants";var Brightness=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};Brightness.defaultProps={isSelected:!1};export default Brightness;

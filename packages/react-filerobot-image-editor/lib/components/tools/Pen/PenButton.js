@@ -1,0 +1,1 @@
+import React from"react";import{Annotation as PenIcon}from"@scaleflex/icons/annotation";import{TOOLS_IDS}from"../../../utils/constants";var PenButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};PenButton.defaultProps={isSelected:!1};export default PenButton;

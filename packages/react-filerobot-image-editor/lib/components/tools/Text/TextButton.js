@@ -1,0 +1,1 @@
+import React from"react";import{Text as TextIcon}from"@scaleflex/icons/text";import{TOOLS_IDS}from"../../../utils/constants";var TextButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};TextButton.defaultProps={isSelected:!1};export default TextButton;

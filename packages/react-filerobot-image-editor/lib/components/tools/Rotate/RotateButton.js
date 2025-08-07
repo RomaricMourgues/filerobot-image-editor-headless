@@ -1,0 +1,1 @@
+import React from"react";import{RotationLeft as RotateIcon}from"@scaleflex/icons/rotation-left";import{TOOLS_IDS}from"../../../utils/constants";var RotateButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};RotateButton.defaultProps={isSelected:!1};export default RotateButton;

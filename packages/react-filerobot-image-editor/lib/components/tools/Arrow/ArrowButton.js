@@ -1,0 +1,1 @@
+import React from"react";import{ArrowTool as ArrowIcon}from"@scaleflex/icons/arrow-tool";import{TOOLS_IDS}from"../../../utils/constants";var ArrowButton=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};ArrowButton.defaultProps={isSelected:!1};export default ArrowButton;

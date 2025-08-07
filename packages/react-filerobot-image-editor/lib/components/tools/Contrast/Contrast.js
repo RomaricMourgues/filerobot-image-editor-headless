@@ -1,0 +1,1 @@
+import React from"react";import{Contrast as ContrastIcon}from"@scaleflex/icons/contrast";import{TOOLS_IDS}from"../../../utils/constants";var Contrast=function(a){var b=a.selectTool,c=a.isSelected,d=a.t;return React.createElement("div",null)};Contrast.defaultProps={isSelected:!1};export default Contrast;
