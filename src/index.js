@@ -6,4 +6,4 @@ export { TABS_IDS as TABS, TOOLS_IDS as TOOLS };
 
 export default FilerobotImageEditor;
 
-export * as FILTERS from "./custom/filters";
+export * as FILTERS from "custom/filters";

@@ -44,7 +44,7 @@ declare const FILTERS = {
   Walden: Function,
   Willow: Function,
   XPro2: Function,
-} as {[key: string]: Function};
+};
 
 declare const TABS = {
   FINETUNE: 'Finetune',
