@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 import Label from '@scaleflex/ui/core/label';
 
 /** Internal Dependencies */
-import restrictNumber from 'utils/restrictNumber';
-import ColorInput from 'components/common/ColorInput';
+import restrictNumber from '../../../utils/restrictNumber';
+import ColorInput from '../../../components/common/ColorInput';
 import {
   StyledTwoColumnsContainer,
   StyledColumn,
   StyledSpacedOptionFields,
 } from './AnnotationOptions.styled';
-import Slider from '../Slider';
+import Slider from '../../../Slider';
 
 const ShadowFields = ({ annotation, updateAnnotation, t }) => {
   const {

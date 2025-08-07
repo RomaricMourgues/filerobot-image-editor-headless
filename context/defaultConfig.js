@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import { MIN_CROP, TABS_IDS, TOOLS_IDS } from 'utils/constants';
+import { MIN_CROP, TABS_IDS, TOOLS_IDS } from '../utils/constants';
 
 export default {
   theme: {

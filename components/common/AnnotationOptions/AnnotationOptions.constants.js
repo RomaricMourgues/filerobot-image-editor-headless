@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import { POSITIONS } from 'utils/constants';
+import { POSITIONS } from '../../../utils/constants';
 
 export const AVAILABLE_POSITIONS = Object.values(POSITIONS);
 

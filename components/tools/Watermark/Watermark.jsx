@@ -9,13 +9,13 @@ import {
   SET_ANNOTATION,
   SET_FEEDBACK,
   CLEAR_ANNOTATIONS_SELECTIONS,
-} from 'actions';
-import ButtonWithMenu from 'components/common/ButtonWithMenu';
-import TextControls from 'components/tools/Text/TextOptions/TextControls';
-import ImageControls from 'components/tools/Image/ImageControls';
+} from '../../../actions';
+import ButtonWithMenu from '../../../components/common/ButtonWithMenu';
+import TextControls from '../../../components/tools/Text/TextOptions/TextControls';
+import ImageControls from '../../../components/tools/Image/ImageControls';
 import { usePhoneScreen, useStore } from 'hooks';
-import { FEEDBACK_STATUSES, TOOLS_IDS } from 'utils/constants';
-import HiddenUploadInput from 'components/common/HiddenUploadInput';
+import { FEEDBACK_STATUSES, TOOLS_IDS } from '../../../utils/constants';
+import HiddenUploadInput from '../../../components/common/HiddenUploadInput';
 import {
   StyledControlsWrapper,
   StyledWatermarkWrapper,
@@ -161,7 +161,7 @@ const Watermark = () => {
   const importWatermarkImg = (e) => {
     if (e.target.files) {
       const imgFile = e.target.files[0];
-      if (imgFile.type.startsWith('image/')) {
+      if (imgFile.type.startsWith('image/)) {
         loadAndSetWatermarkImg(URL.createObjectURL(imgFile), true);
       }
     }

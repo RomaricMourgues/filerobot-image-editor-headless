@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Polygon as PolygonIcon } from '@scaleflex/icons/polygon';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const PolygonButton = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

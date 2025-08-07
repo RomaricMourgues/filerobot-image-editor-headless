@@ -1,6 +1,6 @@
-import compareRatios from 'utils/compareRatios';
-import restrictNumber from 'utils/restrictNumber';
-import toPrecisedFloat from 'utils/toPrecisedFloat';
+import compareRatios from '../../../utils/compareRatios';
+import restrictNumber from '../../../utils/restrictNumber';
+import toPrecisedFloat from '../../../utils/toPrecisedFloat';
 
 export const boundDragging = (newDimensions, allowedArea) => {
   const maxAllowedX =

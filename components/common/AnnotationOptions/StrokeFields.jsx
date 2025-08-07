@@ -3,10 +3,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import restrictNumber from 'utils/restrictNumber';
-import ColorInput from 'components/common/ColorInput';
+import restrictNumber from '../../../utils/restrictNumber';
+import ColorInput from '../../../components/common/ColorInput';
 import { StyledSpacedOptionFields } from './AnnotationOptions.styled';
-import Slider from '../Slider';
+import Slider from '../../../Slider';
 
 const MIN_PERCENTANGE = 0;
 const MAX_PERCENTANGE = 100;

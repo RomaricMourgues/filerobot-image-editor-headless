@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Temprature as WarmthIcon } from '@scaleflex/icons/tempreture';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const Warmth = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

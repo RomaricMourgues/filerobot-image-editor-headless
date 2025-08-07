@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import { TOOLS_IDS } from 'utils/constants';
+import { TOOLS_IDS } from '../../../../utils/constants';
 import RectNode from './RectNode';
 import EllipseNode from './EllipseNode';
 import PolygonNode from './PolygonNode';

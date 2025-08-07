@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Text as TextIcon } from '@scaleflex/icons/text';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const TextButton = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

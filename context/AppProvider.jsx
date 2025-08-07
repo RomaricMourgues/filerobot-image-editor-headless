@@ -5,7 +5,7 @@ import { useTheme } from '@scaleflex/ui/theme/hooks';
 
 /** Internal Dependencies */
 import { useAppReducer } from 'hooks';
-import { translate, updateTranslations } from 'utils/translator';
+import { translate, updateTranslations } from '../utils/translator';
 import appReducer from './appReducer';
 import AppContext from './AppContext';
 import getInitialAppState from './getInitialAppState';

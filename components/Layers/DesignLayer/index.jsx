@@ -3,14 +3,14 @@ import React, { useCallback, useEffect, useMemo, useRef } from 'react';
 import { Image, Layer, Rect } from 'react-konva';
 
 /** Internal Dependencies */
-import getDimensionsMinimalRatio from 'utils/getDimensionsMinimalRatio';
-import cropImage from 'utils/cropImage';
-import { DESIGN_LAYER_ID, IMAGE_NODE_ID, TOOLS_IDS } from 'utils/constants';
-import { SET_SHOWN_IMAGE_DIMENSIONS } from 'actions';
-import getProperImageToCanvasSpacing from 'utils/getProperImageToCanvasSpacing';
+import getDimensionsMinimalRatio from '../../../utils/getDimensionsMinimalRatio';
+import cropImage from '../../../utils/cropImage';
+import { DESIGN_LAYER_ID, IMAGE_NODE_ID, TOOLS_IDS } from '../../../utils/constants';
+import { SET_SHOWN_IMAGE_DIMENSIONS } from '../../../actions';
+import getProperImageToCanvasSpacing from '../../../utils/getProperImageToCanvasSpacing';
 import { useStore } from 'hooks';
-import getSizeAfterRotation from 'utils/getSizeAfterRotation';
-import getCenterRotatedPoint from 'utils/getCenterRotatedPoint';
+import getSizeAfterRotation from '../../../utils/getSizeAfterRotation';
+import getCenterRotatedPoint from '../../../utils/getCenterRotatedPoint';
 import AnnotationNodes from './AnnotationNodes';
 import PreviewGroup from './PreviewGroup';
 

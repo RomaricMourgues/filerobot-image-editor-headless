@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import {
   StyledSpacedOptionFields,
   StyledIconWrapper,
-} from 'components/common/AnnotationOptions/AnnotationOptions.styled';
+} from '../../../components/common/AnnotationOptions/AnnotationOptions.styled';
 import { TextAlignCenter, TextAlignLeft } from '@scaleflex/icons';
 
 const rightAlignmentCssTransform = { transform: 'scaleX(-1)' };

@@ -6,8 +6,8 @@ import Portrait from '@scaleflex/icons/portrait';
 import ImageOutline from '@scaleflex/icons/image-outline';
 
 /** Internal Dependencies */
-import { CUSTOM_CROP, ELLIPSE_CROP, ORIGINAL_CROP } from 'utils/constants';
-import toPrecisedFloat from 'utils/toPrecisedFloat';
+import { CUSTOM_CROP, ELLIPSE_CROP, ORIGINAL_CROP } from '../../../utils/constants';
+import toPrecisedFloat from '../../../utils/toPrecisedFloat';
 
 export const DEFAULT_CROP_PRESETS = [
   {

@@ -5,9 +5,9 @@ import { Warning } from '@scaleflex/icons';
 
 /** Internal Dependencies */
 import { useStore } from 'hooks';
-import { RESET } from 'actions';
-import Modal from 'components/common/Modal';
-import { CLOSING_REASONS } from 'utils/constants';
+import { RESET } from '../../actions';
+import Modal from '../../components/common/Modal';
+import { CLOSING_REASONS } from '../../utils/constants';
 
 const ConfirmationModal = ({ children, isReset }) => {
   const {

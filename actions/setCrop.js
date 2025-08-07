@@ -1,4 +1,4 @@
-import toPrecisedFloat from 'utils/toPrecisedFloat';
+import toPrecisedFloat from '../utils/toPrecisedFloat';
 
 export const SET_CROP = 'SET_CROP';
 

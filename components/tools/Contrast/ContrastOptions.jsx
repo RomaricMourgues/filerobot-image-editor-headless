@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 
 /** Internal Depdencies */
 import { useFinetune } from 'hooks';
-import restrictNumber from 'utils/restrictNumber';
-import Slider from 'components/common/Slider';
+import restrictNumber from '../../../utils/restrictNumber';
+import Slider from '../../../components/common/Slider';
 import {
   StyledSliderContainer,
   StyledSliderInput,
   StyledSliderLabel,
   StyledSliderWrapper,
-} from '../tools.styled';
+} from '../../../tools.styled';
 
 const MIN_VALUE = -100;
 const DEFAULT_VALUE = {

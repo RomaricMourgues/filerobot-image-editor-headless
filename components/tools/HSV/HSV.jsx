@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Saturation as SaturationIcon } from '@scaleflex/icons/saturation';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const HSV = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

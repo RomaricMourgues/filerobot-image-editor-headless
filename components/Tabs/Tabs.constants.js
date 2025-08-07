@@ -9,7 +9,7 @@ import {
 } from '@scaleflex/icons';
 
 /** Internal Dependencies */
-import { TABS_IDS } from 'utils/constants';
+import { TABS_IDS } from '../../utils/constants';
 
 export const AVAILABLE_TABS = [
   {

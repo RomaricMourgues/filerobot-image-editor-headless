@@ -4,10 +4,10 @@ import PropTypes from 'prop-types';
 import Compare from '@scaleflex/icons/compare';
 
 /** Internal Dependencies */
-import { TOGGLE_ORIGINAL_IMAGE_DISPLAY } from 'actions';
+import { TOGGLE_ORIGINAL_IMAGE_DISPLAY } from '../../actions';
 import { useStore } from 'hooks';
-import getProperDimensions from 'utils/getProperDimensions';
-import Separator from 'components/common/Separator';
+import getProperDimensions from '../../utils/getProperDimensions';
+import Separator from '../../components/common/Separator';
 import {
   StyledSmallButton,
   StyledDimensionsLabel,

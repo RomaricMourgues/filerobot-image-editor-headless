@@ -1,6 +1,6 @@
 /** Internal Dependencies */
-import { DEFAULT_ZOOM_FACTOR } from 'utils/constants';
-import extractCurrentDesignState from 'utils/extractCurrentDesignState';
+import { DEFAULT_ZOOM_FACTOR } from '../utils/constants';
+import extractCurrentDesignState from '../utils/extractCurrentDesignState';
 
 export const RESET = 'RESET';
 

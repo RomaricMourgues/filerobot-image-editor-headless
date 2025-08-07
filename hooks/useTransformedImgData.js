@@ -2,19 +2,19 @@
 import Konva from 'konva';
 
 /** Internal Dependencies */
-import { HIDE_LOADER, SET_SAVED } from 'actions';
+import { HIDE_LOADER, SET_SAVED } from '../actions';
 import {
   ELLIPSE_CROP,
   IMAGE_NODE_ID,
   SUPPORTED_IMAGE_TYPES,
   TOOLS_IDS,
-} from 'utils/constants';
-import extractCurrentDesignState from 'utils/extractCurrentDesignState';
-import mapCropBox from 'utils/mapCropBox';
-import getSizeAfterRotation from 'utils/getSizeAfterRotation';
-import imageToBase64 from 'utils/imageToBase64';
-import getFileFullName from 'utils/getFileFullName';
-import operationsToCloudimageUrl from 'utils/operationsToCloudimageUrl';
+} from '../utils/constants';
+import extractCurrentDesignState from '../utils/extractCurrentDesignState';
+import mapCropBox from '../utils/mapCropBox';
+import getSizeAfterRotation from '../utils/getSizeAfterRotation';
+import imageToBase64 from '../utils/imageToBase64';
+import getFileFullName from '../utils/getFileFullName';
+import operationsToCloudimageUrl from '../utils/operationsToCloudimageUrl';
 import useStore from './useStore';
 
 const useTransformedImgData = () => {

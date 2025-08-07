@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import { TABS_IDS, TOOLS_IDS } from 'utils/constants';
+import { TABS_IDS, TOOLS_IDS } from '../../../utils/constants';
 import { Brightness, BrightnessOptions } from './Brightness';
 import { Crop } from './Crop';
 import { FlipX, FlipY } from './Flip';

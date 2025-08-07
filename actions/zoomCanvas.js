@@ -1,7 +1,7 @@
 /** Internal Dependencies */
-import calculateZoomData from 'utils/calculateZoomData';
-import { DEFAULT_ZOOM_FACTOR } from 'utils/constants';
-import restrictNumber from 'utils/restrictNumber';
+import calculateZoomData from '../utils/calculateZoomData';
+import { DEFAULT_ZOOM_FACTOR } from '../utils/constants';
+import restrictNumber from '../utils/restrictNumber';
 
 export const ZOOM_CANVAS = 'ZOOM_CANVAS';
 

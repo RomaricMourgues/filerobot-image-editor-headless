@@ -6,11 +6,11 @@ import { Rotate90 } from '@scaleflex/icons';
 
 /** Internal Dependencies */
 import { useDebouncedCallback, usePhoneScreen, useStore } from 'hooks';
-import { CHANGE_ROTATION, SET_RESIZE } from 'actions';
-import restrictNumber from 'utils/restrictNumber';
-import getSizeAfterRotation from 'utils/getSizeAfterRotation';
-import { TOOLS_IDS } from 'utils/constants';
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
+import { CHANGE_ROTATION, SET_RESIZE } from '../../../actions';
+import restrictNumber from '../../../utils/restrictNumber';
+import getSizeAfterRotation from '../../../utils/getSizeAfterRotation';
+import { TOOLS_IDS } from '../../../utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
 import {
   StyledRotationOptions,
   StyledRotationSlider,

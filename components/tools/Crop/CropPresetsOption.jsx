@@ -3,12 +3,12 @@ import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import { SET_CROP, SET_RESIZE, ZOOM_CANVAS } from 'actions';
+import { SET_CROP, SET_RESIZE, ZOOM_CANVAS } from '../../../actions';
 import { usePhoneScreen, useStore } from 'hooks';
-import { StyledToolsBarItemButtonLabel } from 'components/ToolsBar/ToolsBar.styled';
-import { DEFAULT_ZOOM_FACTOR, ORIGINAL_CROP, TOOLS_IDS } from 'utils/constants';
-import toPrecisedFloat from 'utils/toPrecisedFloat';
-import getZoomFitFactor from 'utils/getZoomFitFactor';
+import { StyledToolsBarItemButtonLabel } from '../../../components/ToolsBar/ToolsBar.styled';
+import { DEFAULT_ZOOM_FACTOR, ORIGINAL_CROP, TOOLS_IDS } from '../../../utils/constants';
+import toPrecisedFloat from '../../../utils/toPrecisedFloat';
+import getZoomFitFactor from '../../../utils/getZoomFitFactor';
 import { MoveDownOutline, MoveUpOutline } from '@scaleflex/icons';
 import { Menu } from '@scaleflex/ui/core';
 import { DEFAULT_CROP_PRESETS } from './Crop.constants';

@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import toPrecisedFloat from 'utils/toPrecisedFloat';
+import toPrecisedFloat from '../../../utils/toPrecisedFloat';
 import { useStore } from 'hooks';
 import CropPresetItem from './CropPresetItem';
 import { StyledAccordion } from './Crop.styled';

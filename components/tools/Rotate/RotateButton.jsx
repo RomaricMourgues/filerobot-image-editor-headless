@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { RotationLeft as RotateIcon } from '@scaleflex/icons/rotation-left';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const RotateButton = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

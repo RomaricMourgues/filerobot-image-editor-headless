@@ -1,7 +1,7 @@
 /** Internal Dependencies */
-import { TOOLS_IDS } from 'utils/constants';
-import getElemDocumentCoords from 'utils/getElemDocumentCoords';
-import getPointerOffsetPositionBoundedToObject from 'utils/getPointerOffsetPositionBoundedToObject';
+import { TOOLS_IDS } from '../../utils/constants';
+import getElemDocumentCoords from '../../utils/getElemDocumentCoords';
+import getPointerOffsetPositionBoundedToObject from '../../utils/getPointerOffsetPositionBoundedToObject';
 import getBoundingRectUnScaled from './getBoundingRectUnScaled';
 import getNewAnnotationPreview, {
   dimensToProperAnnotationDimens,

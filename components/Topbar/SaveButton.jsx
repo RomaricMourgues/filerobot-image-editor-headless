@@ -6,20 +6,20 @@ import Label from '@scaleflex/ui/core/label';
 
 /** Internal Dependencies */
 import { useStore, useTransformedImgData } from 'hooks';
-import getFileFullName from 'utils/getFileFullName';
-import getDefaultSaveQuality from 'utils/getDefaultSaveQuality';
+import getFileFullName from '../../utils/getFileFullName';
+import getDefaultSaveQuality from '../../utils/getDefaultSaveQuality';
 import {
   CLOSING_REASONS,
   ELLIPSE_CROP,
   SUPPORTED_IMAGE_TYPES,
   DEFAULT_SAVE_QUALITY,
-} from 'utils/constants';
-import { SET_FEEDBACK, SET_SAVING } from 'actions';
-import Modal from 'components/common/Modal';
-import Slider from 'components/common/Slider';
-import restrictNumber from 'utils/restrictNumber';
-import { Resize } from 'components/tools/Resize';
-import ButtonWithMenu from 'components/common/ButtonWithMenu';
+} from '../../utils/constants';
+import { SET_FEEDBACK, SET_SAVING } from '../../actions';
+import Modal from '../../components/common/Modal';
+import Slider from '../../components/common/Slider';
+import restrictNumber from '../../utils/restrictNumber';
+import { Resize } from '../../components/tools/Resize';
+import ButtonWithMenu from '../../components/common/ButtonWithMenu';
 import {
   StyledFileExtensionSelect,
   StyledFileNameInput,

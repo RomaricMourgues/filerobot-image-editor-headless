@@ -2,8 +2,8 @@
 import { useMemo, useCallback } from 'react';
 
 /** Internal Dependencies */
-import { SET_ANNOTATION, SELECT_ANNOTATION, SELECT_TOOL } from 'actions';
-import { TOOLS_IDS, TABS_IDS, WATERMARK_ANNOTATION_ID } from 'utils/constants';
+import { SET_ANNOTATION, SELECT_ANNOTATION, SELECT_TOOL } from '../actions';
+import { TOOLS_IDS, TABS_IDS, WATERMARK_ANNOTATION_ID } from '../utils/constants';
 import useStore from './useStore';
 
 const useAnnotationEvents = () => {

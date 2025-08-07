@@ -2,7 +2,7 @@
 import Konva from 'konva';
 
 /** Internal Dependencies */
-import { TOOLS_IDS } from 'utils/constants';
+import { TOOLS_IDS } from '../utils/constants';
 
 const annotationsNamesToKonvaClasses = {
   [TOOLS_IDS.RECT]: Konva.Rect,

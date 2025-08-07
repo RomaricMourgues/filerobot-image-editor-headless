@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
 import { useStore } from 'hooks';
-import { SET_LATEST_COLOR } from 'actions';
-import ColorPickerModal from '../ColorPickerModal';
+import { SET_LATEST_COLOR } from '../../../actions';
+import ColorPickerModal from '../../../ColorPickerModal';
 import { StyledPickerTrigger } from './ColorInput.styled';
 
 const pinnedColorsKey = 'FIE_pinnedColors';

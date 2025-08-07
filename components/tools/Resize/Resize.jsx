@@ -6,13 +6,13 @@ import UnlockOutline from '@scaleflex/icons/unlock-outline';
 import { Reset } from '@scaleflex/icons';
 
 /** Internal Dependencies */
-import { SET_RESIZE, ZOOM_CANVAS } from 'actions';
+import { SET_RESIZE, ZOOM_CANVAS } from '../../../actions';
 import { useStore } from 'hooks';
-import getProperDimensions from 'utils/getProperDimensions';
-import getSizeAfterRotation from 'utils/getSizeAfterRotation';
-import getZoomFitFactor from 'utils/getZoomFitFactor';
-import restrictNumber from 'utils/restrictNumber';
-import { DEFAULT_ZOOM_FACTOR } from 'utils/constants';
+import getProperDimensions from '../../../utils/getProperDimensions';
+import getSizeAfterRotation from '../../../utils/getSizeAfterRotation';
+import getZoomFitFactor from '../../../utils/getZoomFitFactor';
+import restrictNumber from '../../../utils/restrictNumber';
+import { DEFAULT_ZOOM_FACTOR } from '../../../utils/constants';
 import {
   StyledResizeWrapper,
   StyledResizeInput,

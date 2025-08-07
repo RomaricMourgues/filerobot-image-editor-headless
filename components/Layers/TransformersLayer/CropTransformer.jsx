@@ -5,16 +5,16 @@ import Konva from 'konva';
 
 /** Internal Dependencies */
 import { useStore } from 'hooks';
-import { SET_CROP, SET_FEEDBACK } from 'actions';
+import { SET_CROP, SET_FEEDBACK } from '../../../actions';
 import {
   CUSTOM_CROP,
   ELLIPSE_CROP,
   FEEDBACK_STATUSES,
   ORIGINAL_CROP,
   TOOLS_IDS,
-} from 'utils/constants';
+} from '../../../utils/constants';
 import { boundDragging, boundResizing } from './TransformersLayer.utils';
-import TextNode from '../DesignLayer/AnnotationNodes/TextNode';
+import TextNode from '../../../DesignLayer/AnnotationNodes/TextNode';
 
 const noEffectTextDimensions = {
   width: 200,

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { ArrowTool as ArrowIcon } from '@scaleflex/icons/arrow-tool';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const ArrowButton = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

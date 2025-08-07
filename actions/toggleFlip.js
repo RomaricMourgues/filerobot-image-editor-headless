@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import { FLIP_DIRECTIONS } from 'utils/constants';
+import { FLIP_DIRECTIONS } from '../utils/constants';
 
 export const TOGGLE_FLIP = 'TOGGLE_FLIP';
 

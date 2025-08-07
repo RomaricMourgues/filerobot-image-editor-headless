@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 /** Internal Dependencies */
-import defaultTranslations from 'context/defaultTranslations';
+import defaultTranslations from '../context/defaultTranslations';
 import { TRANSLATIONS_GRID_UUID } from './constants';
 
 const backendTranslations = {};

@@ -3,14 +3,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import restrictNumber from 'utils/restrictNumber';
+import restrictNumber from '../../../utils/restrictNumber';
 import { Label } from '@scaleflex/ui/core';
 import {
   StyledSpacedOptionFields,
   StyledIconLabel,
   StyledOptionPopupContent,
 } from './AnnotationOptions.styled';
-import Slider from '../Slider';
+import Slider from '../../../Slider';
 
 const MIN_PERCENTANGE = 0;
 const MAX_PERCENTANGE = 1;

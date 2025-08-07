@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Ellipse as EllipseIcon } from '@scaleflex/icons/ellipse';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const EllipseButton = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

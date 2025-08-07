@@ -11,8 +11,8 @@ import { Button } from '@scaleflex/ui/core';
 
 /** Internal Dependencies */
 import { useStore } from 'hooks';
-import { StyledDrawer } from 'components/App/App.styled';
-import Tabs from 'components/Tabs';
+import { StyledDrawer } from '../../components/App/App.styled';
+import Tabs from '../../components/Tabs';
 
 const TabsDrawer = ({ toggleMainMenu }) => {
   const { t, showTabsMenu } = useStore();

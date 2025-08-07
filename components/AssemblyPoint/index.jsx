@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 import ThemeProvider from '@scaleflex/ui/theme';
 
 /** Internal Dependencies */
-import App from 'components/App';
-import { AppProvider } from 'context';
-import defaultConfig from 'context/defaultConfig';
-import deepMerge from 'utils/deepMerge';
-import assignFinetuneNamesToKonva from 'utils/assignFinetuneNamesToKonva';
+import App from '../../components/App';
+import { AppProvider } from '../../context';
+import defaultConfig from '../../context/defaultConfig';
+import deepMerge from '../../utils/deepMerge';
+import assignFinetuneNamesToKonva from '../../utils/assignFinetuneNamesToKonva';
 import { FontsFaces, OverrideDefaultStyles } from './globalStyles';
 
 const AssemblyPoint = (props) => {

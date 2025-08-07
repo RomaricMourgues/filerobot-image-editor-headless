@@ -1,5 +1,5 @@
-import { TABS_TOOLS } from 'components/tools/tools.constants';
-import { POINTER_ICONS, TABS_IDS } from 'utils/constants';
+import { TABS_TOOLS } from '../components/tools/tools.constants';
+import { POINTER_ICONS, TABS_IDS } from '../utils/constants';
 
 export const SELECT_TAB = 'SELECT_TAB';
 

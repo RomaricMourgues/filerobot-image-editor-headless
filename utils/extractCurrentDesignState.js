@@ -1,6 +1,6 @@
 /** Internal Dependencies */
-import defaultConfig from 'context/defaultConfig';
-import getInitialAppState from 'context/getInitialAppState';
+import defaultConfig from '../context/defaultConfig';
+import getInitialAppState from '../context/getInitialAppState';
 
 /**
  * Extracts the needed properties/state that are used in canvas's design from the global state.

@@ -6,11 +6,11 @@ import FontBold from '@scaleflex/icons/font-bold';
 import FontItalic from '@scaleflex/icons/font-italic';
 
 /** Internal Dependencies */
-import { TOOLS_IDS, TRANSFORMERS_LAYER_ID } from 'utils/constants';
-import AnnotationOptions from 'components/common/AnnotationOptions';
-import { StyledIconWrapper } from 'components/common/AnnotationOptions/AnnotationOptions.styled';
-import { ENABLE_TEXT_CONTENT_EDIT } from 'actions';
-import restrictNumber from 'utils/restrictNumber';
+import { TOOLS_IDS, TRANSFORMERS_LAYER_ID } from '../../../utils/constants';
+import AnnotationOptions from '../../../components/common/AnnotationOptions';
+import { StyledIconWrapper } from '../../../components/common/AnnotationOptions/AnnotationOptions.styled';
+import { ENABLE_TEXT_CONTENT_EDIT } from '../../../actions';
+import restrictNumber from '../../../utils/restrictNumber';
 import { useStore } from 'hooks';
 import {
   StyledFontFamilySelect,

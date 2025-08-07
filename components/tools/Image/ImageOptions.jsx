@@ -4,10 +4,10 @@ import { Images, UploadOutline } from '@scaleflex/icons';
 
 /** Internal Dependencies */
 import { useAnnotation, useStore } from 'hooks';
-import { FEEDBACK_STATUSES, TOOLS_IDS } from 'utils/constants';
-import { SET_FEEDBACK } from 'actions';
-import HiddenUploadInput from 'components/common/HiddenUploadInput';
-import ButtonWithMenu from 'components/common/ButtonWithMenu';
+import { FEEDBACK_STATUSES, TOOLS_IDS } from '../../../utils/constants';
+import { SET_FEEDBACK } from '../../../actions';
+import HiddenUploadInput from '../../../components/common/HiddenUploadInput';
+import ButtonWithMenu from '../../../components/common/ButtonWithMenu';
 import ImageControls from './ImageControls';
 import ImagesGallery from './ImagesGallery';
 
@@ -91,7 +91,7 @@ const ImageOptions = () => {
       const filesArray = Array.from(e.target.files);
       const filesLength = filesArray.length;
       filesArray.forEach((file) => {
-        if (file.type.startsWith('image/')) {
+        if (file.type.startsWith('image/)) {
           const img = new Image();
           img.onload = () => {
             addImgScaled(img);

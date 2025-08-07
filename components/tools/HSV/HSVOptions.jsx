@@ -5,14 +5,14 @@ import Konva from 'konva';
 
 /** Internal Dependencies */
 import { useFinetune, usePhoneScreen } from 'hooks';
-import Slider from 'components/common/Slider';
+import Slider from '../../../components/common/Slider';
 import {
   StyledHSVOptions,
   StyledSliderContainer,
   StyledSliderLabel,
   StyledSliderInput,
   StyledSliderWrapper,
-} from '../tools.styled';
+} from '../../../tools.styled';
 
 const DEFAULT_VALUE = {
   hue: 0,

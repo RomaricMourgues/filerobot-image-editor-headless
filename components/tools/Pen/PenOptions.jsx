@@ -4,12 +4,12 @@ import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
 import { useAnnotation, useStore } from 'hooks';
-import { TOOLS_IDS } from 'utils/constants';
-import AnnotationOptions from 'components/common/AnnotationOptions';
-import getPointerOffsetPositionBoundedToObject from 'utils/getPointerOffsetPositionBoundedToObject';
-import randomId from 'utils/randomId';
-import { SELECT_ANNOTATION, SET_ANNOTATION } from 'actions';
-import getElemDocumentCoords from 'utils/getElemDocumentCoords';
+import { TOOLS_IDS } from '../../../utils/constants';
+import AnnotationOptions from '../../../components/common/AnnotationOptions';
+import getPointerOffsetPositionBoundedToObject from '../../../utils/getPointerOffsetPositionBoundedToObject';
+import randomId from '../../../utils/randomId';
+import { SELECT_ANNOTATION, SET_ANNOTATION } from '../../../actions';
+import getElemDocumentCoords from '../../../utils/getElemDocumentCoords';
 
 const eventsOptions = {
   passive: true,

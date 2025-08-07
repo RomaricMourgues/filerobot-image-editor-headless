@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
 import { useAnnotation } from 'hooks';
-import { TOOLS_IDS } from 'utils/constants';
-import AnnotationOptions from 'components/common/AnnotationOptions';
+import { TOOLS_IDS } from '../../../utils/constants';
+import AnnotationOptions from '../../../components/common/AnnotationOptions';
 
 const EllipseOptions = ({ t }) => {
   const [ellipse, saveEllipse] = useAnnotation({

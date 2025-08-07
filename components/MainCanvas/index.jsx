@@ -2,11 +2,11 @@
 import React, { useCallback, useEffect, useRef } from 'react';
 
 /** Internal Dependencies */
-import { DesignLayer, TransformersLayer } from 'components/Layers';
-import { AppProviderOverridenValue } from 'context';
-import { SET_CANVAS_SIZE } from 'actions';
+import { DesignLayer, TransformersLayer } from '../../components/Layers';
+import { AppProviderOverridenValue } from '../../context';
+import { SET_CANVAS_SIZE } from '../../actions';
 import { useResizeObserver, useStore } from 'hooks';
-import NodeControls from 'components/NodeControls';
+import NodeControls from '../../components/NodeControls';
 import CanvasNode from './CanvasNode';
 import { CanvasContainer, StyledOrignalImage } from './MainCanvas.styled';
 

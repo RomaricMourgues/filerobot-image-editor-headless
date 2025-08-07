@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import Popup from '@scaleflex/ui/core/popup';
 
 /** Internal Dependencies */
-import { SET_FEEDBACK } from 'actions';
+import { SET_FEEDBACK } from '../../actions';
 import { useStore } from 'hooks';
-import { FEEDBACK_STATUSES } from 'utils/constants';
+import { FEEDBACK_STATUSES } from '../../utils/constants';
 
 const defaultAnchorOrigin = {
   horizontal: 'center',

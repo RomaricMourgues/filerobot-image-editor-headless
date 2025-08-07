@@ -5,14 +5,14 @@ import Menu from '@scaleflex/ui/core/menu';
 import Padding from '@scaleflex/icons/padding';
 
 /** Internal Dependencies */
-import restrictNumber from 'utils/restrictNumber';
+import restrictNumber from '../../../utils/restrictNumber';
 import {
   StyledSpacedOptionFields,
   StyledIconWrapper,
   StyledOptionPopupContent,
   StyledIconLabel,
-} from 'components/common/AnnotationOptions/AnnotationOptions.styled';
-import Slider from 'components/common/Slider';
+} from '../../../components/common/AnnotationOptions/AnnotationOptions.styled';
+import Slider from '../../../components/common/Slider';
 import { Label } from '@scaleflex/ui/core';
 
 const WatermarkPadding = ({ watermark, saveWatermark, t }) => {

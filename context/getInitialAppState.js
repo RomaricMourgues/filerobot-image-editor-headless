@@ -1,7 +1,7 @@
 /** Internal Dependencies */
-import { DEFAULT_ZOOM_FACTOR, POINTER_ICONS, TOOLS_IDS } from 'utils/constants';
-import filterStrToClass from 'utils/filterStrToClass';
-import finetunesStrsToClasses from 'utils/finetunesStrsToClasses';
+import { DEFAULT_ZOOM_FACTOR, POINTER_ICONS, TOOLS_IDS } from '../utils/constants';
+import filterStrToClass from '../utils/filterStrToClass';
+import finetunesStrsToClasses from '../utils/finetunesStrsToClasses';
 
 const getInitialAppState = (config = {}) => {
   const loadedConfigPrepared = { ...config.loadableDesignState };

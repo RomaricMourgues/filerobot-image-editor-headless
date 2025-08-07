@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import Label from '@scaleflex/ui/core/label';
 
 /** InternalDependencies */
-import { StyledSpacedOptionFields } from 'components/common/AnnotationOptions/AnnotationOptions.styled';
-import restrictNumber from 'utils/restrictNumber';
-import Slider from 'components/common/Slider';
+import { StyledSpacedOptionFields } from '../../../components/common/AnnotationOptions/AnnotationOptions.styled';
+import restrictNumber from '../../../utils/restrictNumber';
+import Slider from '../../../components/common/Slider';
 
 const MIN_VALUE = 3;
 const MAX_VALUE = 25;

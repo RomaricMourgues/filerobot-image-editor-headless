@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
-import AnnotationOptions from 'components/common/AnnotationOptions';
+import AnnotationOptions from '../../../components/common/AnnotationOptions';
 
 const ImageControls = ({ image, saveImage, children, t }) => (
   <AnnotationOptions

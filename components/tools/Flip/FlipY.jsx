@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 import { FlipY as FlipYIcon } from '@scaleflex/icons/flip-y';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { FLIP_DIRECTIONS, TOOLS_IDS } from 'utils/constants';
-import { TOGGLE_FLIP } from 'actions';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { FLIP_DIRECTIONS, TOOLS_IDS } from '../../../utils/constants';
+import { TOGGLE_FLIP } from '../../../actions';
 import { usePhoneScreen, useStore } from 'hooks';
 
 const yFlipReverseSideStyle = {

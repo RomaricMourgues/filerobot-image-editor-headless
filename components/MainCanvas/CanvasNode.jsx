@@ -16,13 +16,13 @@ import {
   CHANGE_POINTER_ICON,
   CLEAR_ANNOTATIONS_SELECTIONS,
   ZOOM_CANVAS,
-} from 'actions';
+} from '../../actions';
 import {
   DEFAULT_ZOOM_FACTOR,
   POINTER_ICONS,
   TABS_IDS,
   TOOLS_IDS,
-} from 'utils/constants';
+} from '../../utils/constants';
 import { useStore } from 'hooks';
 import { endTouchesZooming, zoomOnTouchesMove } from './touchZoomingEvents';
 import { StyledCanvasNode } from './MainCanvas.styled';

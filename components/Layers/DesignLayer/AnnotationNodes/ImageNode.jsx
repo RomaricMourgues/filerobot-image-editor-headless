@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Image } from 'react-konva';
 
 /** Internal Dependencies */
-import loadImage from 'utils/loadImage';
+import loadImage from '../../../../utils/loadImage';
 import nodesCommonPropTypes from '../nodesCommonPropTypes';
 
 const ImageNode = ({

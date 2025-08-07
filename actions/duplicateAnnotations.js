@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import randomId from 'utils/randomId';
+import randomId from '../utils/randomId';
 
 export const DUPLICATE_ANNOTATIONS = 'DUPLICATE_ANNOTATIONS';
 

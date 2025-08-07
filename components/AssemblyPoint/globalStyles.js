@@ -2,7 +2,7 @@
 import { createGlobalStyle } from 'styled-components';
 
 /** Internal Dependencies */
-import { ROOT_CONTAINER_CLASS_NAME } from 'utils/constants';
+import { ROOT_CONTAINER_CLASS_NAME } from '../../utils/constants';
 
 const FontsFaces = createGlobalStyle`
   .${ROOT_CONTAINER_CLASS_NAME} {

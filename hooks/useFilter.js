@@ -2,7 +2,7 @@
 import { useCallback, useMemo } from 'react';
 
 /** Internal Dependencies */
-import { ADD_FILTER } from 'actions';
+import { ADD_FILTER } from '../actions';
 import useStore from './useStore';
 
 const useFilter = () => {

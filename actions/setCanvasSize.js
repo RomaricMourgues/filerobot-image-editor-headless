@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import getDimensionsMinimalRatio from 'utils/getDimensionsMinimalRatio';
+import getDimensionsMinimalRatio from '../utils/getDimensionsMinimalRatio';
 
 export const SET_CANVAS_SIZE = 'SET_CANVAS_SIZE';
 

@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Contrast as ContrastIcon } from '@scaleflex/icons/contrast';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const Contrast = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

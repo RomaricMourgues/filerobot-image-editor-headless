@@ -4,7 +4,7 @@ import CrossOutline from '@scaleflex/icons/cross-outline';
 
 /** Internal Dependencies */
 import { useStore } from 'hooks';
-import Separator from 'components/common/Separator';
+import Separator from '../../components/common/Separator';
 import { StyledCloseButton } from './Topbar.styled';
 import ConfirmationModal from './ConfirmationModal';
 

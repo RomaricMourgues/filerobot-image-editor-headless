@@ -6,11 +6,11 @@ import Menu from '@scaleflex/ui/core/menu';
 import MenuItem, { MenuItemLabel } from '@scaleflex/ui/core/menu-item';
 
 /** Internal Dependencies */
-import { ZOOM_CANVAS } from 'actions';
-import { DEFAULT_ZOOM_FACTOR, TOOLS_IDS } from 'utils/constants';
+import { ZOOM_CANVAS } from '../../actions';
+import { DEFAULT_ZOOM_FACTOR, TOOLS_IDS } from '../../utils/constants';
 import { useStore } from 'hooks';
-import getZoomFitFactor from 'utils/getZoomFitFactor';
-import toPrecisedFloat from 'utils/toPrecisedFloat';
+import getZoomFitFactor from '../../utils/getZoomFitFactor';
+import toPrecisedFloat from '../../utils/toPrecisedFloat';
 import {
   StyledSmallButton,
   StyledZoomPercentageLabel,

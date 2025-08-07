@@ -4,15 +4,15 @@ import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
 import { useFinetune } from 'hooks';
-import restrictNumber from 'utils/restrictNumber';
-import { Warmth as CustomWarmth } from 'custom/finetunes';
-import Slider from 'components/common/Slider';
+import restrictNumber from '../../../utils/restrictNumber';
+import { Warmth as CustomWarmth } from '../../../custom/finetunes';
+import Slider from '../../../components/common/Slider';
 import {
   StyledSliderContainer,
   StyledSliderInput,
   StyledSliderLabel,
   StyledSliderWrapper,
-} from '../tools.styled';
+} from '../../../tools.styled';
 
 const MIN_VALUE = 0;
 const DEFAULT_VALUE = {

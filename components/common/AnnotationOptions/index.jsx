@@ -21,7 +21,7 @@ import {
   StyledIconWrapper,
 } from './AnnotationOptions.styled';
 import { POPPABLE_OPTIONS } from './AnnotationOptions.constants';
-import ColorInput from '../ColorInput';
+import ColorInput from '../../../ColorInput';
 
 const AnnotationOptions = ({
   children,

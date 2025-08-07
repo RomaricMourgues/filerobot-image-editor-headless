@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import deepMerge from 'utils/deepMerge';
+import deepMerge from '../utils/deepMerge';
 
 export const UPDATE_STATE = 'UPDATE_STATE';
 

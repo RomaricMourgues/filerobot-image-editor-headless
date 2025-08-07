@@ -2,8 +2,8 @@
 import { useReducer } from 'react';
 
 /** Internal Dependencies */
-import { REDO, RESET, UNDO } from 'actions';
-import extractCurrentDesignState from 'utils/extractCurrentDesignState';
+import { REDO, RESET, UNDO } from '../actions';
+import extractCurrentDesignState from '../utils/extractCurrentDesignState';
 
 let timeout;
 

@@ -2,7 +2,7 @@
 import Konva from 'konva';
 
 /** Internal Dependencies */
-import * as CustomFilters from 'custom/filters';
+import * as CustomFilters from '../custom/filters';
 
 const filterStrToClass = (filterString) => {
   if (filterString) {

@@ -2,8 +2,8 @@
 import { useCallback, useEffect, useMemo } from 'react';
 
 /** Internal Dependencies */
-import { SET_FINETUNE } from 'actions';
-import isDefaultZeroValuesOnly from 'utils/isDefaultZeroValuesOnly';
+import { SET_FINETUNE } from '../actions';
+import isDefaultZeroValuesOnly from '../utils/isDefaultZeroValuesOnly';
 import useStore from './useStore';
 
 const useFinetune = (finetune, initialProps) => {

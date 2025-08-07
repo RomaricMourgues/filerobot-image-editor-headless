@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { Brightness as BrightnessIcon } from '@scaleflex/icons/brightness';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const Brightness = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

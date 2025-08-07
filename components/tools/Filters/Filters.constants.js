@@ -2,7 +2,7 @@
 import Konva from 'konva';
 
 /** Internal Dependencies */
-import * as CustomKonvaFilters from 'custom/filters';
+import * as CustomKonvaFilters from '../../../custom/filters';
 
 const konvaFilters = Konva.Filters;
 export const AVAILABLE_FILTERS = [

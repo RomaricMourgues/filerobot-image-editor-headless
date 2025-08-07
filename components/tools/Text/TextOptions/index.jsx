@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 /** Internal Dependencies */
 import { useAnnotation } from 'hooks';
-import { TOOLS_IDS } from 'utils/constants';
+import { TOOLS_IDS } from '../../../utils/constants';
 import TextControls from './TextControls';
 
 const TextOptions = ({ t }) => {

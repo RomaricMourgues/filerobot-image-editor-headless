@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { ImageOutline as ImageIcon } from '@scaleflex/icons/image-outline';
 
 /** Internal Dependencies */
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
 
 const ImageButton = ({ selectTool, isSelected, t }) => (
   <ToolsBarItemButton

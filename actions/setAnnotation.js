@@ -1,4 +1,4 @@
-import randomId from 'utils/randomId';
+import randomId from '../utils/randomId';
 
 export const SET_ANNOTATION = 'SET_ANNOTATION';
 

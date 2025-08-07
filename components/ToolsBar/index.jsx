@@ -3,11 +3,11 @@ import React, { useCallback, useEffect, useMemo } from 'react';
 import PropTypes from 'prop-types';
 
 /** Internal Depepdencneis */
-import { SELECT_TOOL } from 'actions';
-import { TABS_TOOLS, TOOLS_ITEMS } from 'components/tools/tools.constants';
-import { TABS_IDS } from 'utils/constants';
+import { SELECT_TOOL } from '../../actions';
+import { TABS_TOOLS, TOOLS_ITEMS } from '../../components/tools/tools.constants';
+import { TABS_IDS } from '../../utils/constants';
 import { useStore } from 'hooks';
-import Carousel from 'components/common/Carousel';
+import Carousel from '../../components/common/Carousel';
 import { StyledToolsBar, StyledToolsBarItems } from './ToolsBar.styled';
 import ToolsBarItemOptionsWrapper from './ToolsBarItemOptionsWrapper';
 

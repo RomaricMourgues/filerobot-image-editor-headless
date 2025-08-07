@@ -5,9 +5,9 @@ import { Crop as CropIcon } from '@scaleflex/icons/crop';
 
 /** Internal Dependencies */
 import { useStore } from 'hooks';
-import ToolsBarItemButton from 'components/ToolsBar/ToolsBarItemButton';
-import { TOOLS_IDS } from 'utils/constants';
-import { StyledToolsBarItemButtonLabel } from 'components/ToolsBar/ToolsBar.styled';
+import ToolsBarItemButton from '../../../components/ToolsBar/ToolsBarItemButton';
+import { TOOLS_IDS } from '../../../utils/constants';
+import { StyledToolsBarItemButtonLabel } from '../../../components/ToolsBar/ToolsBar.styled';
 import CropPresetsOption from './CropPresetsOption';
 
 const Crop = ({ selectTool, isSelected }) => {

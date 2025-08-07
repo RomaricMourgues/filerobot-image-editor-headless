@@ -1,5 +1,5 @@
 /** Internal Dependencies */
-import extractCurrentDesignState from 'utils/extractCurrentDesignState';
+import extractCurrentDesignState from '../utils/extractCurrentDesignState';
 
 export const REDO = 'REDO';
 

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Undo from '@scaleflex/icons/undo';
 
 /** Internal Dependencies */
-import { UNDO } from 'actions';
+import { UNDO } from '../../actions';
 import { useStore } from 'hooks';
 import { StyledHistoryButton } from './Topbar.styled';
 

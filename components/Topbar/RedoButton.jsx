@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import Redo from '@scaleflex/icons/redo';
 
 /** Internal Dependencies */
-import { REDO } from 'actions';
+import { REDO } from '../../actions';
 import { useStore } from 'hooks';
 import { StyledHistoryButton } from './Topbar.styled';
 

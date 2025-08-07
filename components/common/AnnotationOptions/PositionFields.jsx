@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import { ArrowRight, Point } from '@scaleflex/icons';
 
 /** Internal Dependencies */
-import { POSITIONS } from 'utils/constants';
-import mapPositionStringToPoint from 'utils/mapPositionStringToPoint';
+import { POSITIONS } from '../../../utils/constants';
+import mapPositionStringToPoint from '../../../utils/mapPositionStringToPoint';
 import { useStore } from 'hooks';
 import { StyledIconWrapper } from './AnnotationOptions.styled';
 import {

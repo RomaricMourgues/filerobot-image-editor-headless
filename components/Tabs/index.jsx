@@ -5,7 +5,7 @@ import { DrawerItem } from '@scaleflex/ui/core/drawer';
 
 /** Internal Dependencies */
 import { useStore } from 'hooks';
-import { SELECT_TAB } from 'actions';
+import { SELECT_TAB } from '../../actions';
 import TabItem from './TabItem';
 import { AVAILABLE_TABS } from './Tabs.constants';
 

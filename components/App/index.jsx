@@ -2,11 +2,11 @@
 import React, { memo, useCallback, useEffect, useState, useRef } from 'react';
 
 /** Internal Dependencies */
-import MainCanvas from 'components/MainCanvas';
-import { ROOT_CONTAINER_CLASS_NAME } from 'utils/constants';
-import Topbar from 'components/Topbar';
-import Tabs from 'components/Tabs';
-import ToolsBar from 'components/ToolsBar';
+import MainCanvas from '../../components/MainCanvas';
+import { ROOT_CONTAINER_CLASS_NAME } from '../../utils/constants';
+import Topbar from '../../components/Topbar';
+import Tabs from '../../components/Tabs';
+import ToolsBar from '../../components/ToolsBar';
 import {
   HIDE_LOADER,
   RESET,
@@ -15,23 +15,23 @@ import {
   SET_SHOWN_TABS_MENU,
   SHOW_LOADER,
   UPDATE_STATE,
-} from 'actions';
-import FeedbackPopup from 'components/FeedbackPopup';
-import loadImage from 'utils/loadImage';
+} from '../../actions';
+import FeedbackPopup from '../../components/FeedbackPopup';
+import loadImage from '../../utils/loadImage';
 import {
   usePhoneScreen,
   useResizeObserver,
   useStore,
   useTransformedImgData,
 } from 'hooks';
-import Spinner from 'components/common/Spinner';
-import { getBackendTranslations } from 'utils/translator';
-import cloudimageQueryToDesignState from 'utils/cloudimageQueryToDesignState';
-import finetunesStrsToClasses from 'utils/finetunesStrsToClasses';
-import filterStrToClass from 'utils/filterStrToClass';
-import isSameImage from 'utils/isSameImage';
-import useUpdateEffect from 'hooks/useUpdateEffect';
-import TabsDrawer from 'components/TabsDrawer';
+import Spinner from '../../components/common/Spinner';
+import { getBackendTranslations } from '../../utils/translator';
+import cloudimageQueryToDesignState from '../../utils/cloudimageQueryToDesignState';
+import finetunesStrsToClasses from '../../utils/finetunesStrsToClasses';
+import filterStrToClass from '../../utils/filterStrToClass';
+import isSameImage from '../../utils/isSameImage';
+import useUpdateEffect from '../../hooks/useUpdateEffect';
+import TabsDrawer from '../../components/TabsDrawer';
 import {
   StyledAppWrapper,
   StyledMainContent,

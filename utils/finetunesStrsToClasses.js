@@ -2,7 +2,7 @@
 import Konva from 'konva';
 
 /** Internal Dependencies */
-import * as CustomFinetunes from 'custom/finetunes';
+import * as CustomFinetunes from '../custom/finetunes';
 
 const finetunesStrsToClasses = (finetunesStrings) => {
   if (Array.isArray(finetunesStrings) && finetunesStrings.length > 0) {
